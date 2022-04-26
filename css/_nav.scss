@@ -1,0 +1,20 @@
+nav{
+    background-color: rgba(0,0,0,0.9);
+    height: 90px;
+    display: flex;
+    align-items: center;
+    font-family: 'Poppins', sans-serif;
+    justify-content: space-around;
+    ul{
+       li{
+           display: inline-block;
+           margin: 0 10px;
+           a{
+               color: white;
+               &:hover{
+                   color: #4c913d;
+               }
+           }
+       } 
+    }
+}
