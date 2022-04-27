@@ -163,11 +163,44 @@ nav ul li a:hover {
   width: 60%;
   background-size: cover;
 }
-.seeMenu div:last-child {
+.seeMenu .line {
+  width: 50px;
+  height: 204px;
+  margin-right: 30px;
+  border-top: 1px solid white;
+}
+.seeMenu .contentQuality {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+}
+.seeMenu .contentQuality:last-child {
+  display: flex;
+  flex-direction: row;
   align-items: center;
+  justify-content: center;
   width: 40%;
+}
+.seeMenu .contentQuality h2 {
+  margin: 20px 0;
+  font-size: 66px;
+  font-weight: 600;
+  line-height: 70px;
+  text-transform: uppercase;
+  font-family: "Bebas Neue";
+}
+.seeMenu .contentQuality button {
+  background-color: transparent;
+  border: solid 1px white;
+  padding: 5px 20px;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.5s ease;
+}
+.seeMenu .contentQuality button:hover {
+  background-color: #4c913d;
+  border: solid 1px transparent;
+  color: black;
 }
 
 * {
@@ -244,7 +277,7 @@ nav ul li a:hover {
 
 .position-txt {
   text-transform: uppercase;
-  margin: 5% 0 0 5%;
+  margin: 5% 0 0 10%;
   display: inline-block;
 }
 
