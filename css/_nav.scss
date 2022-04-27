@@ -7,11 +7,14 @@ nav{
     ul{
        li{
            display: inline-block;
-           margin: 0 10px;
+           margin: 0 4px;
            a{
                color: white;
+               border: 1px solid transparent;
+               padding: 3px 8px;
                &:hover{
                    color: #4c913d;
+                   border: 1px solid #4c913d;
                }
            }
        } 
