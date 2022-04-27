@@ -315,4 +315,60 @@ footer h4 {
   text-align: center;
   font-size: 14px;
   padding-top: 10px;
+}
+
+.menu-combos {
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
+  height: 400px;
+  background-color: lightgrey;
+  align-items: center;
+}
+.menu-combos .box-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 3em;
+}
+
+.menu-extra {
+  justify-content: space-evenly;
+  display: flex;
+  height: 500px;
+  background-image: url(https://riobraziliansteakhouse.ca/wp-content/uploads/2019/12/misc22x.jpg);
+  background-image: linear-gradient(180deg, #030303 27%, rgba(3, 3, 3, 0.2) 100%), url(https://riobraziliansteakhouse.ca/wp-content/uploads/2019/12/misc22x.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+}
+.menu-extra h2 {
+  margin-top: 2em;
+}
+.menu-extra .box-menu {
+  display: flex;
+  flex-direction: row;
+  gap: 5em;
+  margin-bottom: 3em;
+}
+
+.menu-protein {
+  justify-content: space-evenly;
+  display: flex;
+  height: 500px;
+  background-color: lightgrey;
+}
+.menu-protein .box-menu {
+  display: flex;
+  flex-direction: row;
+  gap: 5em;
+  margin-bottom: 3em;
+}
+.menu-protein h2 {
+  margin-top: 2em;
+}
+.menu-protein img {
+  height: 500px;
+  width: 600px;
 }/*# sourceMappingURL=main.css.map */
