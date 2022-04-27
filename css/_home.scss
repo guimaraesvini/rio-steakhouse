@@ -96,3 +96,25 @@
         }
     }
 }
+
+.seeMenu{
+    background-color: black;
+    height: 90vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    .imagePicanha{
+        background-image: url(../images/menu.jpeg);
+        height: 100%;
+        width: 60%;
+        background-size: cover;
+    }
+    div{
+        &:last-child{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 40%;
+        }
+    }
+}
