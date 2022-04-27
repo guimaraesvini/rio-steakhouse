@@ -4,6 +4,9 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-around;
+    position: fixed;
+    width: 100%;
+    backdrop-filter: blur(4px);
     ul{
        li{
            display: inline-block;
