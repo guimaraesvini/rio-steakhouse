@@ -308,8 +308,7 @@ nav ul li a:hover {
 }
 
 .manger, .server, .kiticin {
-  background-color: #8d898930;
-
+  background-color: rgba(141, 137, 137, 0.1882352941);
 }
 
 .card-box {
@@ -319,7 +318,6 @@ nav ul li a:hover {
   text-align: center;
   margin: 5% 10% 0% 10%;
   padding: 1rem 1rem 2rem 0;
-  background-color: rgb(58, 57, 57);
 }
 .card-box .card {
   outline: 2px solid rgb(106, 130, 161);
