@@ -34,6 +34,7 @@ nav {
   width: 100%;
   -webkit-backdrop-filter: blur(4px);
           backdrop-filter: blur(4px);
+  z-index: 2;
 }
 nav ul li {
   display: inline-block;
@@ -301,11 +302,13 @@ nav ul li a:hover {
   text-transform: uppercase;
   margin: 5% 0 0 10%;
   display: inline-block;
-  color: white;
+  color: black;
+  font-size: x-large;
+  font-weight: bolder;
 }
 
 .manger, .server, .kiticin {
-  background-color: #3a3939;
+  background-color: #8d898930;
 }
 
 .card-box {
@@ -315,7 +318,6 @@ nav ul li a:hover {
   text-align: center;
   margin: 5% 10% 0% 10%;
   padding: 1rem 1rem 2rem 0;
-  background-color: #3a3939;
 }
 .card-box .card {
   outline: 2px solid #6a82a1;
@@ -340,6 +342,7 @@ nav ul li a:hover {
 
 .card:hover {
   transform: scale(1.2);
+  outline: 3px solid black;
 }
 
 .last {
