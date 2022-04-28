@@ -34,6 +34,7 @@ nav {
   width: 100%;
   -webkit-backdrop-filter: blur(4px);
           backdrop-filter: blur(4px);
+  z-index: 2;
 }
 nav ul li {
   display: inline-block;
@@ -301,11 +302,14 @@ nav ul li a:hover {
   text-transform: uppercase;
   margin: 5% 0 0 10%;
   display: inline-block;
-  color: white;
+  color: black;
+  font-size: x-large;
+  font-weight: bolder;
 }
 
 .manger, .server, .kiticin {
-  background-color: rgb(58, 57, 57);
+  background-color: #8d898930;
+
 }
 
 .card-box {
@@ -340,6 +344,7 @@ nav ul li a:hover {
 
 .card:hover {
   transform: scale(1.2);
+  outline: 3px solid black;
 }
 
 .last {
