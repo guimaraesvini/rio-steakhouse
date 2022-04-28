@@ -1,57 +1,75 @@
-.menu-combos{
+.menu-combos {
     justify-content: space-evenly;
     display: flex;
-    flex-direction: row;
-    height: 400px;
+    flex-direction: column;
+    height: 300px;
     background-color: lightgrey;
     align-items: center;
-        .box-menu{
+
+    .box-menu {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        margin-bottom: 3em;
+        margin-bottom: 0.5rem;
+    }
+    .boxCombos{
+        display: flex;
+        width: 100%;
+        justify-content: space-evenly;
     }
 }
 
-.menu-extra{
+.menu-extra {
     justify-content: space-evenly;
     display: flex;
-    height:500px;
+    height: 450px;
     background-image: url(https://riobraziliansteakhouse.ca/wp-content/uploads/2019/12/misc22x.jpg);
-    background-image: linear-gradient(180deg, #030303 27%,rgba(3,3,3,0.2) 100%),url(https://riobraziliansteakhouse.ca/wp-content/uploads/2019/12/misc22x.jpg);
+    background-image: linear-gradient(180deg, #030303 27%, rgba(3, 3, 3, 0.2) 100%), url(https://riobraziliansteakhouse.ca/wp-content/uploads/2019/12/misc22x.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     color: white;
-    h2 {
-        margin-top: 2em;
-    }
-        .box-menu{
-            display: flex;
-            flex-direction: row;
-            gap: 5em;
-            margin-bottom: 3em;
+    align-items: center;
 
-        }
-}
-
-.menu-protein{
-    justify-content: space-evenly;
-    display: flex;
-    height:500px;
-    background-color: lightgrey;
     .box-menu {
         display: flex;
         flex-direction: row;
-        gap: 5em;
-        margin-bottom: 3em;
-    }    
-        h2 {
-        margin-top: 2em;
-        }
-        img{
+        justify-content: space-between;
+        gap: 3em;
+        margin-bottom: 1em;
+    }
+}
+
+.menu-protein {
+    justify-content: space-between;
+    display: flex;
+    height: 450px;
+    background-color: lightgrey;
+    padding-left: 90px;
+    align-items: center;
+
+    h4 {
+        margin-bottom: 24px;
+    }
+
+    .box-menu {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 0.3rem;
+        justify-content: space-between;
+    }
+
+    img {
         height: 500px;
         width: 600px;
-        }
+    }
+
+    .boxImageMenu {
+        background-image: url(../images/menu-protein.jpeg);
+        height: 450px;
+        width: 550px;
+        background-size: cover;
+
+    }
 
 }
