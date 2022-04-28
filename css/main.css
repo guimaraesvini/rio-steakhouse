@@ -305,7 +305,7 @@ nav ul li a:hover {
 }
 
 .manger, .server, .kiticin {
-  background-color: #3a3939;
+  background-color: rgb(58, 57, 57);
 }
 
 .card-box {
@@ -315,10 +315,10 @@ nav ul li a:hover {
   text-align: center;
   margin: 5% 10% 0% 10%;
   padding: 1rem 1rem 2rem 0;
-  background-color: #3a3939;
+  background-color: rgb(58, 57, 57);
 }
 .card-box .card {
-  outline: 2px solid #6a82a1;
+  outline: 2px solid rgb(106, 130, 161);
   background-color: black;
   color: white;
 }
@@ -443,5 +443,4 @@ footer h4 {
 .menu-protein img {
   height: 500px;
   width: 600px;
-}
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
