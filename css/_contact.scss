@@ -1,0 +1,75 @@
+.contact-form{
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+        .contact-informations{
+            display: flex;
+            flex-direction: column;
+            gap: 1em;
+            .box-info{
+                display: flex;
+                flex-direction: column;
+                gap: 1em;
+            }
+        }
+}
+
+.personal-info{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    input{
+        border: none;
+        border-radius: 5px;
+        border-width: 1px 1px 1px 1px;
+        background-color: #f2f2f2;
+        width: 100%;
+    }
+    button{
+        border-radius: 0px;
+        box-shadow: none;
+        border-width: 1px;
+        border-style: solid;
+        background-color: white;
+        width: 25%;
+        height: 2.5em;
+        border-color: #d6d6d6;
+        &:hover{
+            cursor: pointer;
+            border-color: black;
+        }
+    }
+}
+
+.profile-1 {
+    display: flex;
+    flex-direction: row;
+    input{
+    width: 90%;
+    height: 2.5em;
+    }
+}
+
+.profile-2 {
+    display: flex;
+    flex-direction: column;
+    input{   
+        height: 2.5em;
+    }
+}
+
+.profile-3 {
+    display: flex;
+    flex-direction: column;
+    input{
+        height: 6em;
+    }
+}
+
+.medias{
+    i{
+        font-size: 200%;
+    }
+}
