@@ -25,18 +25,26 @@
         text-transform: uppercase;  
         margin: 5% 0 0 10%;
         display: inline-block;
+        color: white;
 }
-
+.manger, .server, .kiticin{
+    background-color: rgb(58, 57, 57);
+}
 .card-box{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 5%;
     text-align: center;
-    margin: 5% 10%;
+    margin: 5% 10% 0% 10%;
+    padding: 1rem 1rem 2rem 0;
+    background-color: rgb(58, 57, 57);;
     .card{
-        outline: 1px solid black;
+        outline: 2px solid rgb(106, 130, 161);
         background-color: black;
         color: white;
+    // :hover{
+        // transform: scale(0.7);
+
         .card-img{
             img{
                 width: 100%;
@@ -55,6 +63,13 @@
             }
         }
     }
-    
+    // }
 
+}
+.card:hover{
+    transform: scale(1.2);
+
+}
+.last{
+    padding-bottom: 7rem;
 }

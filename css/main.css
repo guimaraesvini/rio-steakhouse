@@ -301,6 +301,11 @@ nav ul li a:hover {
   text-transform: uppercase;
   margin: 5% 0 0 10%;
   display: inline-block;
+  color: white;
+}
+
+.manger, .server, .kiticin {
+  background-color: #3a3939;
 }
 
 .card-box {
@@ -308,10 +313,14 @@ nav ul li a:hover {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   gap: 5%;
   text-align: center;
-  margin: 5% 10%;
+  margin: 5% 10% 0% 10%;
+  padding: 1rem 1rem 2rem 0;
+  background-color: #3a3939;
 }
 .card-box .card {
-  outline: 1px solid black;
+  outline: 2px solid #6a82a1;
+  background-color: black;
+  color: white;
 }
 .card-box .card .card-img img {
   width: 100%;
@@ -327,6 +336,14 @@ nav ul li a:hover {
   padding: 5% 0;
   font-weight: bold;
   text-transform: capitalize;
+}
+
+.card:hover {
+  transform: scale(1.2);
+}
+
+.last {
+  padding-bottom: 7rem;
 }
 
 footer {
@@ -426,4 +443,5 @@ footer h4 {
 .menu-protein img {
   height: 500px;
   width: 600px;
-}/*# sourceMappingURL=main.css.map */
+}
+/*# sourceMappingURL=main.css.map */
