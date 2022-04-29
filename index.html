@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Rio Brazilian Steakhouse</title>
 </head>
 <body>
@@ -27,8 +28,8 @@
         </ul>
     </nav>
 
-    <section class="mainBanner">
-        <div>
+    <section class="mainBanner" >
+        <div data-aos="fade-up" data-aos-duration="2000">
             <h1>The best BBQ in Town!</h1>
             <h2>O melhor churrasco da cidade!</h2>
         </div>
@@ -36,7 +37,7 @@
 
     <section class="reservation">
         <h2>Book a table</h2>
-        <form>
+        <form data-aos="zoom-in" data-aos-duration="1500">
             <input type="text" placeholder="First Name:" name="fname"><br>
             <input id="date" type="date" placeholder="First Name"><br>
             <input type="text" name="lname" placeholder="Party Size">
@@ -51,22 +52,22 @@
     </section>
 
     <section class="experience">
-        <div>
+        <div data-aos="fade-right" data-aos-duration="1000"   data-aos-easing="ease-in-sine">
             <span>At Rio Brazilian Steakhouse you’ll experience <br> “CHURRASCO”,</span>
             <h1>
                 the authentic and <br> unique Brazilian <br> barbecue, a Meat <br> Heaven!  
             </h1>
             <p>Our all you can eat concept offers a continuous service with an extraordinary variety of meats including, beef, pork, lamb, chicken, ribs, etc.; along with a fresh and modern unlimited choices of hot sides and salads a Gluten Free Paradise, with daily chef creations for your pleasure. We are the perfect choice for your diet, KETO AND ATKINS friendly.</p>
         </div>
-        <div>
+        <div data-aos="fade-left" data-aos-duration="1500"  data-aos-offset="200" data-aos-easing="ease-in-sine">
             <img src="images/experience.jpeg" alt="">
         </div>
 
     </section>
 
     <section class="seeMenu">
-        <div class="imagePicanha"></div>
-        <div class="contentQuality">
+        <div class="imagePicanha" data-aos="fade-right" data-aos-duration="1000"   data-aos-easing="ease-in-out"></div>
+        <div class="contentQuality" data-aos="fade-left" data-aos-duration="1000"  data-aos-offset="200" data-aos-easing="ease-in-out">
             <div class="line"></div>
             <div >
                 <span>QUALITY IN WHAT YOU DO</span>
@@ -110,5 +111,10 @@
     </div>
 
 <script src="https://kit.fontawesome.com/40b1889db0.js" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js" ></script>
+<script>
+    AOS.init();
+</script>
+
 </body>
 </html>
