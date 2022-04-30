@@ -309,7 +309,7 @@ nav ul li a:hover {
 }
 
 .manger, .server, .kiticin {
-  background-color: rgba(141, 137, 137, 0.1882352941);
+  background-color: #8d898930;
 }
 
 .card-box {
@@ -321,7 +321,7 @@ nav ul li a:hover {
   padding: 1rem 1rem 2rem 0;
 }
 .card-box .card {
-  outline: 2px solid rgb(106, 130, 161);
+  outline: 2px solid #6a82a1;
   background-color: black;
   color: white;
 }
@@ -331,12 +331,12 @@ nav ul li a:hover {
   vertical-align: top;
 }
 .card-box .card .card-img .name {
-  padding: 5% 0;
+  padding: 5% 0 0 0;
   font-weight: bold;
   font-size: 20px;
 }
 .card-box .card .card-img .position {
-  padding: 5% 0;
+  padding: 0 0 5% 0;
   font-weight: bold;
   text-transform: capitalize;
 }
@@ -533,4 +533,5 @@ footer h4 {
 
 .medias i {
   font-size: 200%;
-}/*# sourceMappingURL=main.css.map */
+}
+/*# sourceMappingURL=main.css.map */
